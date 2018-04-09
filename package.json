@@ -1,0 +1,19 @@
+{
+  "name": "draw77Server",
+  "version": "0.0.1",
+  "main": "draw77Server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=development PORT=8080 nohup node spider.js >nohup.log &"
+  },
+  "author": "caiyidong",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "restify": "",
+    "mongodb": "~2.2.33",
+    "async": "",
+    "winston": "~0.7.3",
+    "request": "",
+    "crawler": ""
+  }
+}
